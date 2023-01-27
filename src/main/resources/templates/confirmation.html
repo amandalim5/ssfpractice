@@ -19,7 +19,7 @@
         <span>Pizza cost: $</span
         ><span data-th-text="${thePizzaCost}">--type pizza cost here</span>
       </h2>
-      <h2><span>Rush: </span><span data-th-if="*{rush}">$2</span></h2>
+      <h2 data-th-if="*{rush}"><span>Rush: </span><span >$2</span></h2>
       <h2><span>Total cost: $</span><span data-th-text="*{cost}"></span></h2>
     </div>
   </body>
